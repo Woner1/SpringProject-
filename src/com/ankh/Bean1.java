@@ -4,6 +4,7 @@ import org.springframework.stereotype.Service;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
+import org.aspectj.lang.JoinPoint;
 
 @Service("bean1")
 public class Bean1 {
